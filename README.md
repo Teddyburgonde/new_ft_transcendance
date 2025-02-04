@@ -2,35 +2,31 @@
 
 # Installation d'un backend avec Fastify
 
-## Prérequis
-- Node.js et npm installés sur votre machine.
-- Un éditeur de texte (ex. Visual Studio Code).
-
 ## Étapes de configuration
 
-1. **Installer Node.js et npm**  
+1. **Installer Node.js et npm**  ❌
    Téléchargez et installez Node.js depuis le site officiel : [https://nodejs.org/](https://nodejs.org/).
 
-2. **Créer un dossier pour le projet**  
+2. **Créer un dossier pour le projet**  ❌
    ```bash
    mkdir mon-projet-backend
    cd mon-projet-backend
    ```
 
-3. **Initialiser le projet avec `npm init`**  
+3. **Initialiser le projet avec `npm init`**  ❌
    ```bash
    npm init -y
    ```
 
-4. **Installer Fastify**  
+4. **Installer Fastify**  ❌
    ```bash
    npm install fastify
    ```
 
-5. **Créer le fichier d'entrée `server.js`**  
+5. **Créer le fichier d'entrée `server.js`**  ❌
    Créez un fichier nommé `server.js` à la racine de votre projet.
 
-6. **Configurer le serveur de base avec Fastify**  
+6. **Configurer le serveur de base avec Fastify**  ❌
    Exemple de configuration de base :
    ```javascript
    const fastify = require('fastify')();
@@ -48,42 +44,42 @@
    });
    ```
 
-7. **Ajouter les routes nécessaires**
+7. **Ajouter les routes nécessaires** ❌
    - Ajoutez vos routes API pour les différentes fonctionnalités.
 
-8. **Installer et configurer une base de données**  
+8. **Installer et configurer une base de données**  ❌
    - Exemple : installer SQLite ou MongoDB selon les besoins.
    ```bash
    npm install sqlite3   # Pour SQLite
    ```
 
-9. **Configurer les middlewares (si besoin)**  
+9. **Configurer les middlewares (si besoin)**  ❌
    - Ajoutez des middlewares pour la gestion des requêtes (ex. CORS, JSON parsing).
 
-10. **Ajouter la gestion des erreurs**
+10. **Ajouter la gestion des erreurs** ❌
     - Gérez les erreurs globales dans le serveur.
 
-11. **Tester le serveur localement**  
+11. **Tester le serveur localement**  ❌
     ```bash
     node server.js
     ```
 
-12. **Ajouter les fonctionnalités supplémentaires**  
+12. **Ajouter les fonctionnalités supplémentaires**  ❌
     - Exemple : connexion à la base de données, authentification, validation des données, etc.
 
-13. **Configurer les variables d'environnement**  
+13. **Configurer les variables d'environnement**  ❌
     - Créez un fichier `.env` pour stocker les variables sensibles.
 
-14. **Tester et optimiser le backend**
+14. **Tester et optimiser le backend** ❌
     - Effectuez des tests unitaires et fonctionnels.
 
-15. **Préparer le déploiement (si nécessaire)**  
+15. **Préparer le déploiement (si nécessaire)**   ❌
     - Préparez votre backend pour le déploiement (ex. Docker, configuration serveur).
 
-## Lancer le serveur
+## Lancer le serveur ❌
 ```bash
 node server.js
 ```
 
-## Félicitations ! 🎉
+## Félicitations ! 🎉 ❌
 Vous avez maintenant un backend fonctionnel avec Fastify !
